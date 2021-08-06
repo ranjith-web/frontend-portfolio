@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="chatlet.ui"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Redux, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/ranjith-web/frontend-portfolio"
             />
           </Col>
         </Row>
