@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-// import { BiLinkExternal } from "react-icons/bi";
+import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCards(props) {
   return (
@@ -13,8 +13,13 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary">
-          {/* <BiLinkExternal /> &nbsp; */}
-          In process
+          {props.completed ? 
+            <Button variant="primary" href={props.link} target="_blank">
+              <BiLinkExternal /> &nbsp;
+              View Project
+            </Button> 
+            : "In process"
+          }
         </Button>
       </Card.Body>
     </Card>
