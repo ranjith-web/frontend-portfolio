@@ -22,7 +22,7 @@ function Projects() {
               imgPath={algoVisualizer}
               isBlog={false}
               title="Algo-Visualizer"
-              description="This project is a Web Visualization tool for sorting algorithms."
+              description="This project is a Web Visualization tool for sorting algorithms. Build React application visualization sorting algorithm. Implemented Merge Sort, Quick Sort, Bubble Sort, Selection Sort, Insertion Sort."
               link="https://github.com/ranjith-web/algo-visualizer"
               completed={true}
             />
