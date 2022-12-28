@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Flash"
               description="A single page to read news from TC, PH, HN etc.."
-              link="https://flash-ui.herokuapp.com/"
+              link="https://flash-ui-service.onrender.com/"
               githubLink="https://github.com/ranjith-web/flash"
               completed={true}
             />
